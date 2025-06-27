@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Products احسن المنتجات</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @keyframes slideDown {
+      0% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+    .animate-slideDown {
+      animation: slideDown 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes slideRight {
+      0% { transform: translateX(-20px); }
+      100% { transform: translateX(0); }
+    }
+    .animate-slideRight {
+      animation: slideRight 1.5s ease-in-out infinite alternate;
+    }
+    .pulse {
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    .form-input:focus {
+      box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.3);
+      border-color: #22c55e;
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+  <main class="flex flex-col items-center w-full bg-white">
+     <header class="flex gap-1 items-start p-5 w-full text-lg font-bold text-white bg-teal-500">
+      <h1 class="flex-grow self-end">استفد من برودة الصيف!</h1>
+      <img src="logo.png" alt="عرض الصيف" class="w-10 h-auto">
+    </header>
+
+    <section class="w-full max-w-md p-3">
+      <img src="main_photo.png" alt="مروحة متنقلة" class="w-full rounded-lg shadow-lg pulse">
+
+      <h2 class="mt-5 text-2xl font-bold text-center text-red-600">
+        كتقلب على البرودة؟ كتكره السخونية فالدار ولا فالخدمة؟ عندي ليك الحل الساهل والرخيص!
+      </h2>
+
+      <img src="2d_photo.jpg" alt="تفاصيل المنتج" class="w-full mt-4 rounded-lg">
+
+      <a href="#order" class="block w-full max-w-sm px-6 py-3 mx-auto mt-4 text-lg font-bold text-center text-white bg-green-500 rounded-lg shadow-lg hover:bg-green-600 transition-colors">
+        اطلب الآن وخلي الجو عليك بارد
+      </a>
+
+      <h3 class="mt-6 text-2xl font-bold text-center text-cyan-500">
+        ✅ مروحة 1 فـ 3: كتدور، كترش الماء، وكتنعشك بالبرودة بحال تكييف متنقل!
+      </h3>
+
+      <img src="3d_photo.jpg" alt="بانر المنتج" class="w-full mt-4 rounded-lg shadow">
+
+      <div class="mt-4 text-center">
+        <span class="inline-block px-3 py-1 text-lg font-bold text-red-600 bg-yellow-400 rounded-lg">⛺ مثالية!</span>
+        <p class="mt-2 text-lg font-bold text-red-600">
+          🔥 تخيّل راسك فالصهد، وهادي كتخرج بخار بارد، زايد معاها شوية ديال الثلج… واش بقا شي أحسن من هكا؟
+        </p>
+        <p class="text-lg font-bold text-red-600">
+          💧 خزان ماء 600ml – تعمرو مرة وحدة وتخدم معاك بالساعات:
+          <br>• بخار خفيف: 12 ساعة
+          <br>• بخار متوسط: 4 ساعات
+          <br>• بخار قوي: 2.5 ساعة
+        </p>
+      </div>
+
+      <a href="#order" class="block w-full max-w-sm px-6 py-3 mx-auto mt-6 text-lg font-bold text-center text-white bg-green-500 rounded-xl shadow-lg hover:bg-green-600 transition-colors">
+        بغيتي تبرد؟ ها الحل!
+      </a>
+
+      <h2 class="mt-8 text-3xl font-bold text-center text-cyan-500">
+        ساهلة فالتنظيف وراقية فالشكل ✨
+      </h2>
+    </section>
+
+    <section class="w-full max-w-md p-3">
+      <img src="4d_photo.jpg" alt="شكل أنيق" class="w-full mt-4 rounded-lg">
+    </section>
+
+    <section class="w-full max-w-md px-4">
+      <div class="flex items-center justify-between p-3 text-sm text-center text-gray-900 bg-yellow-100 rounded-lg">
+        <p>خفيفة وساهلة فالحمل – معاك في أي مكان</p>
+        <span class="font-bold">ملاحظة:</span>
+      </div>
+      <p class="text-sm text-center text-gray-900 mt-1">زيد الماء أو الثلج وستمتع!</p>
+    </section>
+
+    <section class="w-full max-w-md px-4">
+      <img src="2d_photo.jpg" alt="صور المنتج" class="w-full mt-6 rounded-lg shadow">
+      <img src="3d_photo.jpg" alt="معلومات المنتج" class="w-full mt-2 rounded-lg shadow">
+    </section>
+
+    <!-- Order Form -->
+    <section id="order" class="w-full max-w-md px-4 py-8">
+      <h2 class="text-xl font-bold text-center text-gray-800 mb-4">
+        🔻 للطلب املأ الاستمارة التالية 🔻
+      </h2>
+      <div class="p-4 bg-white border border-gray-300 rounded-lg shadow-xl">
+        <h3 class="text-2xl font-bold text-center text-red-500">سارع، العرض محدود!</h3>
+        <div class="flex items-center justify-center gap-2 mt-4">
+          <span class="line-through text-gray-500">250 درهم</span>
+          <span class="text-4xl font-bold text-green-700">179 درهم</span>
+        </div>
+        <p class="mt-4 font-semibold text-right">اختر العرض المناسب لك:</p>
+
+       <form id="orderForm" class="mt-3 space-y-6">
+      <!-- Fixed Pricing Options -->
+      <div class="space-y-2">
+        <div>
+          <input type="radio" id="option1" name="quantity" value="1 قطعة - 179 د.م" class="peer hidden" checked>
+          <label for="option1" class="block p-3 rounded-lg cursor-pointer border border-gray-400 peer-checked:bg-green-700 peer-checked:text-white hover:bg-gray-100 transition-colors">
+            1 قطعة - 179 د.م
+          </label>
+        </div>
+
+        <div>
+          <input type="radio" id="option2" name="quantity" value="2 قطع - 299 د.م" class="peer hidden">
+          <label for="option2" class="block p-3 rounded-lg cursor-pointer border border-gray-400 peer-checked:bg-green-700 peer-checked:text-white hover:bg-gray-100 transition-colors">
+            2 قطع - 299 د.م
+          </label>
+        </div>
+
+        <div>
+          <input type="radio" id="option3" name="quantity" value="3 قطع - 399 د.م" class="peer hidden">
+          <label for="option3" class="block p-3 rounded-lg cursor-pointer border border-gray-400 peer-checked:bg-green-700 peer-checked:text-white hover:bg-gray-100 transition-colors">
+            3 قطع - 399 د.م
+          </label>
+        </div>
+      </div>
+
+      <!-- Input Fields -->
+      <div class="space-y-3">
+        <input type="text" name="fullname" placeholder="الاسم الكامل" class="w-full p-3 border border-gray-300 rounded-lg form-input focus:outline-none" required>
+        <input type="tel" name="phone" placeholder="رقم الهاتف" class="w-full p-3 border border-gray-300 rounded-lg form-input focus:outline-none" required>
+        <input type="text" name="address" placeholder="العنوان الكامل" class="w-full p-3 border border-gray-300 rounded-lg form-input focus:outline-none" required>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" id="submitBtn" class="w-full px-4 py-3 mt-4 font-bold text-white bg-green-600 rounded-lg hover:bg-green-700 active:scale-95 transition-all shadow-lg cursor-pointer">
+        تأكيد الطلب
+      </button>
+    </form>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Floating WhatsApp and Order Buttons -->
+  <div class="fixed bottom-6 w-full z-50 pointer-events-auto" id="floating-content">
+    <!-- WhatsApp Icon on the right, pop top to bottom -->
+    <div class="flex justify-end pointer-events-auto pr-4 mb-4">
+      <a href="https://wa.me/212612345678" target="_blank"
+         class="bg-white rounded-full shadow-lg p-3 animate-slideDown">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+             alt="WhatsApp" class="w-16 h-16">
+      </a>
+    </div>
+
+    <!-- Order Now button centered, pop left to right -->
+    <div class="flex justify-center pointer-events-auto" >
+      <button id="orderNowBtn"
+              class="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-4 px-10 rounded-full shadow-xl text-xl w-11/12 max-w-md text-center animate-slideRight transition-all duration-300">
+        اطلب الآن
+      </button>
+    </div>
+  </div>
+
+  <!-- Success Modal -->
+  <div id="successModal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black bg-opacity-70 p-4">
+    <div class="bg-white rounded-xl p-8 max-w-md w-full text-center">
+      <div class="text-green-500 text-6xl mb-4">
+        <i class="fas fa-check-circle"></i>
+      </div>
+      <h3 class="text-2xl font-bold text-green-700 mb-2">تم تأكيد طلبك بنجاح!</h3>
+      <p class="text-gray-700 mb-6">سنتصل بك في أقرب وقت لتأكيد التفاصيل</p>
+      <button id="closeModalBtn" class="bg-green-500 text-white px-6 py-2 rounded-full font-bold hover:bg-green-600 transition-colors">
+        حسناً
+      </button>
+    </div>
+  </div>
+
+  <script>
+   function _0x10ba(_0x1cbb94,_0x1a3472){const _0x3a7f33=_0x3a7f();return _0x10ba=function(_0x10ba66,_0x388dc8){_0x10ba66=_0x10ba66-0x1b5;let _0x226d05=_0x3a7f33[_0x10ba66];return _0x226d05;},_0x10ba(_0x1cbb94,_0x1a3472);}function _0x3a7f(){const _0x11d5d2=['fullname','application/json','orderForm','1491731yQtqmL','POST','⚠️\x20حدث\x20خطأ\x20أثناء\x20إرسال\x20الطلب\x20عبر\x20Telegram.','🔢\x20الكمية:\x20','تأكيد\x20الطلب','8jgjpPi','remove','style','click','👤\x20الاسم\x20الكامل:\x20','6993hvgKap','phone','<i\x20class=\x22fas\x20fa-spinner\x20fa-spin\x22></i>\x20جاري\x20المعالجة...','7848647332:AAGqMsrL4Wk33Ii5ASeGWUzggV4t1egev3w','getElementById','disabled','submit','https://api.telegram.org/bot','display','add','entries','innerHTML','classList','address','successModal','/sendMessage','22740NPlFtU','📞\x20رقم\x20الهاتف:\x20','reportValidity','quantity','hidden','preventDefault','6713994wgKdri','checkValidity','7hLmhBI','none','33009ttYJHv','9820608YPfHBB','2675750XzXplz','🏠\x20العنوان:\x20','closeModalBtn','catch','addEventListener','submitBtn','⚠️\x20لم\x20يتم\x20الاتصال\x20بـ\x20Telegram:\x0a','4999552hZSnck','reset'];_0x3a7f=function(){return _0x11d5d2;};return _0x3a7f();}const _0x129639=_0x10ba;(function(_0x4b77a0,_0x4becca){const _0x3b3405=_0x10ba,_0x3d956c=_0x4b77a0();while(!![]){try{const _0x469469=-parseInt(_0x3b3405(0x1d9))/0x1+-parseInt(_0x3b3405(0x1de))/0x2*(-parseInt(_0x3b3405(0x1cb))/0x3)+parseInt(_0x3b3405(0x1d4))/0x4+-parseInt(_0x3b3405(0x1cd))/0x5+-parseInt(_0x3b3405(0x1c7))/0x6*(-parseInt(_0x3b3405(0x1c9))/0x7)+-parseInt(_0x3b3405(0x1cc))/0x8+parseInt(_0x3b3405(0x1e3))/0x9*(parseInt(_0x3b3405(0x1c1))/0xa);if(_0x469469===_0x4becca)break;else _0x3d956c['push'](_0x3d956c['shift']());}catch(_0x426989){_0x3d956c['push'](_0x3d956c['shift']());}}}(_0x3a7f,0xe1e9c),document['getElementById']('orderNowBtn')[_0x129639(0x1d1)](_0x129639(0x1e1),function(){const _0x2e6794=_0x129639,_0x4a1870=document[_0x2e6794(0x1b5)]('orderNowBtn');document[_0x2e6794(0x1b5)](_0x2e6794(0x1d8))['scrollIntoView']({'behavior':'smooth'}),document['getElementById']('floating-content')[_0x2e6794(0x1e0)][_0x2e6794(0x1b9)]=_0x2e6794(0x1ca);}),document[_0x129639(0x1b5)](_0x129639(0x1d8))[_0x129639(0x1d1)](_0x129639(0x1b7),function(_0x39483c){const _0x3847fc=_0x129639;_0x39483c[_0x3847fc(0x1c6)]();const _0x4f31a9=this;if(!_0x4f31a9[_0x3847fc(0x1c8)]()){_0x4f31a9[_0x3847fc(0x1c3)]();return;}const _0x496ea3=document[_0x3847fc(0x1b5)](_0x3847fc(0x1d2));_0x496ea3[_0x3847fc(0x1bc)]=_0x3847fc(0x1e5),setTimeout(()=>{const _0x2b9f8b=_0x3847fc,_0x3e51ea=new FormData(_0x4f31a9),_0x4222ef=Object['fromEntries'](_0x3e51ea[_0x2b9f8b(0x1bb)]()),_0x415767=_0x2b9f8b(0x1e6),_0x5276e4='5195125417',_0xd61a81='🛒\x20طلب\x20جديد:\x0a'+(_0x2b9f8b(0x1dc)+_0x4222ef[_0x2b9f8b(0x1c4)]+'\x0a')+(_0x2b9f8b(0x1e2)+_0x4222ef[_0x2b9f8b(0x1d6)]+'\x0a')+(_0x2b9f8b(0x1c2)+_0x4222ef[_0x2b9f8b(0x1e4)]+'\x0a')+(_0x2b9f8b(0x1ce)+_0x4222ef[_0x2b9f8b(0x1be)]);fetch(_0x2b9f8b(0x1b8)+_0x415767+_0x2b9f8b(0x1c0),{'method':_0x2b9f8b(0x1da),'headers':{'Content-Type':_0x2b9f8b(0x1d7)},'body':JSON['stringify']({'chat_id':_0x5276e4,'text':_0xd61a81})})['then'](_0x487ba5=>{const _0x2eb4dd=_0x2b9f8b;_0x487ba5['ok']?(document['getElementById'](_0x2eb4dd(0x1bf))[_0x2eb4dd(0x1bd)][_0x2eb4dd(0x1df)]('hidden'),_0x4f31a9[_0x2eb4dd(0x1d5)](),_0x496ea3['innerHTML']=_0x2eb4dd(0x1dd),_0x496ea3[_0x2eb4dd(0x1b6)]=![]):alert(_0x2eb4dd(0x1db));})[_0x2b9f8b(0x1d0)](_0x5db45c=>{const _0x2dcf7e=_0x2b9f8b;alert(_0x2dcf7e(0x1d3)+_0x5db45c['message']);});},0x5dc);}),document[_0x129639(0x1b5)](_0x129639(0x1cf))[_0x129639(0x1d1)](_0x129639(0x1e1),function(){const _0x4f598a=_0x129639;document['getElementById']('successModal')[_0x4f598a(0x1bd)][_0x4f598a(0x1ba)](_0x4f598a(0x1c5));}));
+</script>
+</body>
+</html>
